@@ -128,7 +128,7 @@ jobs:
       shell: bash
       run : |
         export HOMEBREW_NO_INSTALL_CLEANUP=true
-        brew install autoconf automake libtool tree wget opencore-amr
+        brew install autoconf automake libtool opencore-amr
         wget https://gist.githubusercontent.com/kingster/1954ead3c38a40cac88c5c1311bb39c5/raw/343da2c7a2a52ee5a1c03902cc5e44ed83b1dd5d/cryptopp.rb
         brew install --build-from-source -f cryptopp.rb 
         npm install -g appdmg
